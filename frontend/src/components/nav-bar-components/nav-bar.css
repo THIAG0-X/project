@@ -1,0 +1,17 @@
+
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 1rem;
+   
+}
+
+.navbar a{
+    font-size: 16px;
+    font-weight: medium;
+    color: white;
+    text-decoration: none;
+    border-bottom: solid white;
+}
