@@ -1,0 +1,119 @@
+.section-container {
+    display: flex;
+    flex-flow: column wrap;
+    
+    margin: auto;
+    width: 100%;
+    max-width: 1260px;
+    padding: 20px;
+    gap: 2rem;
+}
+
+/* Search bar */
+.search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 480px;
+    height: 30px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.search-bar input::placeholder {
+    padding-left: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.search-bar img{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 20px;
+}
+
+.section-container .table-and-card {
+    display: flex;
+    gap: 3rem;
+    flex-flow: row;
+    width: 100%;
+}
+/* Table */
+.table-and-card .table{
+    width: 900px;
+    height: 530px;
+    border-radius: 10px;
+    border-spacing: 0;
+}
+.table .cellhead, .cell{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+    width: 225px;
+    height: 30px;
+    font-size: 20px;
+}
+.table .cellhead {
+    font-weight: bold;
+    background-color: #D9D9D9;
+}
+.table .cellhead:first-child {
+    border-radius: 10px 0 0 0;
+}
+.table .cellhead:last-child {
+    border-radius: 0 10px 0 0;
+}
+.table .row:last-child .cell:first-child{
+    border-radius: 0 0 0 10px;
+}
+.table .row:last-child .cell:last-child{
+    border-radius: 0 0 10px 0;
+}
+.table .cell{
+    background-color: white;
+}
+
+/* Associate card */
+.associate-container {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 3rem;
+}
+
+
+
+.associate-container .associatecard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2CF5E7;
+    border-radius: 10px;
+    padding: 50px 30px 50px 30px;
+    text-align: center;
+    width: 300px;
+    height: 430px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.associate-container .button {
+    width: 280px;
+    height: 40px;
+    margin:auto;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #2C44F5;
+    color: white;
+    box-shadow: 0 0 1px 0 rgb(165, 165, 165);
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+
+}

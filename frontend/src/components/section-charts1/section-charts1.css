@@ -1,0 +1,99 @@
+.charts-container{
+    display: flex;
+    flex-flow: column wrap;
+
+    margin: auto;
+    width: 100%;
+    max-width: 1391px;
+    display: flex;
+    padding: 20px;
+    gap: 2rem;
+}
+
+/* Text Charts */
+.text-chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.text-chart-container .text-chart1, .text-chart2, .text-chart3, .text-chart4 {
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+}
+
+
+
+.text-chart-container .text-chart1 {
+    margin-left: 30px;
+}
+.text-chart-container .text-chart2 {
+    text-align: center;
+
+}
+.text-chart-container .text-chart3 {
+    text-align: center;
+}
+.text-chart-container .text-chart4 {
+    text-align: center;
+}
+
+/* Charts */
+.charts1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+.charts2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    gap: 1.5rem;
+}
+.charts1 .profit-services{
+    width: 670px;
+    height: 385px;
+    border-radius: 20px;
+    background-color: #1B256C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.charts1 .material-expenditure{
+    width: 325px;
+    height: 415px;
+    border-radius: 20px;
+    background-color: #1B256C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.charts2 .service-production {
+    width: 670px;
+    height: 380px;
+    border-radius: 20px;
+    background-color: #1B256C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.charts2 .commission-value {
+    width: 701px;
+    height: 380px;
+    border-radius: 20px;
+    background-color: #1B256C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
